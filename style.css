@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.main-wrap{
+    height: calc(100% - 180px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 50px;
+    width: 130px;
+    font-size: 24px;
+}
+
+
